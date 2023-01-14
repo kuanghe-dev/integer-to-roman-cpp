@@ -5,7 +5,7 @@
 using namespace std;
 
 // Convert a positive integer to its Roman numeral equivalent
-// NOTE: For simplicity, there is error checking against non-positive inputs.
+// NOTE: For simplicity, there is no error checking against non-positive inputs.
 string intToRoman(int value) {
     static vector<pair<int, string>> intToRomanMappings{
         make_pair(3000, "MMM"),
